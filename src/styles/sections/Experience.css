@@ -1,10 +1,126 @@
 .experienceSection {
-  background-color: gray;
+  /* background-color: gray; */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  height: calc(100vh - 40px);
+  position: relative;
+  /* height: calc(100vh - 40px); */
+  height: 100vh;
   scroll-snap-align: start;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+
+  & .experienceContainer {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    height: 100%;
+    width: 100%;
+
+    & .title {
+      /* background-color: blue; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      height: calc(100vh - 40px);
+      width: 100%;
+
+      flex: 0 0 98%;
+      scroll-snap-align: center;
+    }
+
+    & .andesBPO {
+      /* background-color: red; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      height: calc(100vh - 40px);
+      width: 100%;
+
+      flex: 0 0 98%;
+      scroll-snap-align: center;
+    }
+  }
+
+  & .experienceContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  & .experienceContainer {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.navArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+
+  &:hover:not(:disabled) {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+}
+
+.navArrowLeft {
+  left: 20px;
+}
+
+.navArrowRight {
+  right: 20px;
+}
+
+.sectionIndicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  &.active {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 1);
+  }
 }

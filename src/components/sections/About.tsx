@@ -6,8 +6,8 @@ export function About() {
 					<div className="profilePhoto">
 						<img
 							alt="GitHub OcampoNotFound Profile Photo"
-							// src="/img/logo.png"
-							src="https://avatars.githubusercontent.com/u/120348197?v=4"
+							src="/img/logo.png"
+						// src="https://avatars.githubusercontent.com/u/120348197?v=4"
 						/>
 					</div>
 					<h1>Hi, I'm Brayan Ocampo</h1>

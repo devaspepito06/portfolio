@@ -1,7 +1,9 @@
 export function Projects() {
-  return (
-    <>
-      <h1>Projects Section</h1>
-    </>
-  );
+	return (
+		<>
+			<section className="projectsSection">
+				<h1>Projects Section</h1>
+			</section>
+		</>
+	);
 }
