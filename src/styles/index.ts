@@ -7,4 +7,3 @@ import "./sections/Projects.css";
 import "./sections/Services.css";
 import "./sections/Contact.css";
 import "./ui/ExCard.css";
-import "./ui/ExModal.css";
