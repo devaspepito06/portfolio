@@ -19,10 +19,12 @@ export function About() {
               JavaScript frameworks like React and Next.js. I love turning
               designs into clean, functional interfaces.
               <br />
+              <br />
               I’m a minimalist by nature, a creative problem-solver, and a
               confident leader who enjoys tackling challenges with imagination
               and structure. I thrive in team environments, love collaborating
               on large-scale projects, sharing ideas, and learning from others.
+              <br />
               <br />
               Outside of code, I’m into anime, traditional Japanese aesthetics,
               and Linux — all of which influence my taste for simplicity,
