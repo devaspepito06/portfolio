@@ -1,5 +1,6 @@
 // import { experience } from "../../data/experience.data";
-import { ExCard } from "../ui/ExCard";
+import { Card } from "../ui/Card";
+import { experience } from "../../data/experience.data";
 
 export const Experience = () => {
   return (
@@ -7,7 +8,16 @@ export const Experience = () => {
       <div className="experienceContainer">
         <h1 className="title">Experience</h1>
         <div className="experienceContainerList">
-          <ExCard />
+          {experience.map((exp, index) => (
+            <Card
+              key={index}
+              company={exp.company}
+              description={exp.description}
+              tech={exp.tech.map((t) =>
+                Array.isArray(t) ? { label: t[0], svg: t[1] } : t,
+              )}
+            />
+          ))}
         </div>
       </div>
     </section>
