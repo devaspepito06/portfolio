@@ -120,6 +120,10 @@ pnpm run dev --host 0.0.0.0
 
 ## 📸 Preview
 
+[![home portfolio preview](https://i.postimg.cc/jS4Hdv7n/portfolio1.png)](https://postimg.cc/0zrMVYZ9)
+[![projects portfolio preview](https://i.postimg.cc/DwPry5XX/portfolio2.png)](https://postimg.cc/TKhLtVQd)
+[![contact portfolio preview](https://i.postimg.cc/vZtrHXV6/portfolio3.png)](https://postimg.cc/MnXM97tW)
+
 ---
 
 ## 📬 Contact
