@@ -128,11 +128,8 @@ pnpm run dev --host 0.0.0.0
 
 ## 📬 Contact
 
-- Email: contact.ocampo.info@gmail.com
 - [Email](mailto:contact.ocampo.info@gmail.com)
-- LinkedIn: https://www.linkedin.com/in/brayan-ocampo-lopez-9460b93a3/
 - [LinkedIn](https://www.linkedin.com/in/brayan-ocampo-lopez-9460b93a3/)
-- GitHub: https://github.com/devaspepito06
 - [GitHub](https://github.com/devaspepito06)
 
 ---
