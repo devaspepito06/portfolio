@@ -120,9 +120,9 @@ pnpm run dev --host 0.0.0.0
 
 ## 📸 Preview
 
-[![home portfolio preview](https://i.postimg.cc/jS4Hdv7n/portfolio1.png)](https://postimg.cc/0zrMVYZ9)
-[![projects portfolio preview](https://i.postimg.cc/DwPry5XX/portfolio2.png)](https://postimg.cc/TKhLtVQd)
-[![contact portfolio preview](https://i.postimg.cc/vZtrHXV6/portfolio3.png)](https://postimg.cc/MnXM97tW)
+[![home portfolio preview](https://i.postimg.cc/FHdMMddy/portfolio1.png)](https://postimg.cc/dhFNd093)
+[![projects portfolio preview](https://i.postimg.cc/tCM0vtT2/portfolio2.png)](https://postimg.cc/XpdDp59C)
+[![contact portfolio preview](https://i.postimg.cc/J42wYcnK/portfolio3.png)](https://postimg.cc/D8LY8G1b)
 
 ---
 
