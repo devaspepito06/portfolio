@@ -11,9 +11,9 @@ export function App() {
   return (
     <>
       <Home />
-      <Projects />
-      <About />
       <Experience />
+      <About />
+      <Projects />
       <Services />
       <Contact />
     </>
