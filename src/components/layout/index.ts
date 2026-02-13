@@ -1,1 +1,1 @@
-export { Navbar } from "./Sidebar";
+export { Sidebar } from "./Sidebar";
