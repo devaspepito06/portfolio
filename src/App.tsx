@@ -1,3 +1,4 @@
+import { Sidebar } from "./components/layout";
 import {
   About,
   Contact,
@@ -10,6 +11,7 @@ import {
 export function App() {
   return (
     <>
+      <Sidebar />
       <Home />
       <About />
       <Experience />
