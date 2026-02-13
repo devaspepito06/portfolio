@@ -5,6 +5,7 @@ export interface ExperienceData {
   period: string;
   title: string;
   description: string;
+  longDescription: string;
   responsabilities: string[];
   tech: (string | [string, string])[];
   image?: string;
@@ -19,6 +20,8 @@ export const experience: ExperienceData[] = [
     title: "Full-Stack Developer at AndesBPO, La Ceja, Colombia",
     description:
       "Front-End developer using React.js, TypeScript, ChakraUI and CSS to create responsive web applications. Back-End developer using Python and FastAPI to build robust APIs and services.",
+    longDescription:
+      "I worked as a Full Stack web developer, building interfaces and software solutions for different companies in the BPO sector. On the front-end side, I used modern JavaScript frameworks like ReactJS and Next.js to create dynamic, optimized, and user-focused interfaces. I also worked with Chakra UI as a React component library to keep visual consistency and speed up development, and used TailwindCSS to build responsive, scalable, and high-performance designs. \n \nOn the back-end side, I used Python as my main programming language and built robust, consumable APIs with FastAPI, focusing on clean architecture, performance, and easy integration with other services. I also implemented audio summarization services for both long and short recordings using artificial intelligence models from OpenAI and DeepSeek, helping automate information processing and text generation.\n \nThroughout my projects, I followed good version control practices using Git, with GitHub as the main platform for hosting and collaboration. I also used GitHub Copilot to assist with parts of the development and improve productivity. Additionally, I worked with Docker to containerize applications, making deployments more consistent, portable, and efficient across environments.",
     responsabilities: [
       "Developing web applications using frameworks like Next.js and libraries like React.js, as well as back-end languages like Python.",
       "Developing responsive web applications, ensuring accessibility across various devices and screen sizes.",
