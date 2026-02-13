@@ -1,7 +1,5 @@
-// import { experience } from "../../data/experience.data";
 import { Card } from "../ui/Card";
 import { experience } from "../../data/experience.data";
-import { NavLink } from "react-router";
 
 export const Experience = () => {
   return (
@@ -21,7 +19,6 @@ export const Experience = () => {
           ))}
         </div>
       </div>
-      <NavLink to="/experiencePage">Experience at andes</NavLink>
     </section>
   );
 };
