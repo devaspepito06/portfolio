@@ -15,6 +15,8 @@ export const Experience = () => {
               tech={exp.tech.map((t) =>
                 Array.isArray(t) ? { label: t[0], svg: t[1] } : t,
               )}
+              type="experience"
+              index={index}
             />
           ))}
         </div>
