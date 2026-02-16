@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import { Instagram, LinkedIn, Gmail } from "../ui/Svgs";
 
 export const Contact = () => {
@@ -19,19 +18,23 @@ export const Contact = () => {
             <div className="contactLinks">
               <ul>
                 <li>
-                  <Link to={mailLink}>
+                  <a href={mailLink} target="_blank" rel="noopener noreferrer">
                     <Gmail width={30} height={30} />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to={linkedinLink}>
+                  <a
+                    href={linkedinLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <LinkedIn width={30} height={30} />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to={igLink}>
+                  <a href={igLink} target="_blank" rel="noopener noreferrer">
                     <Instagram width={30} height={30} />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
