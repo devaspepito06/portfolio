@@ -16,27 +16,17 @@ export const Contact = () => {
               message.
             </p>
             <div className="contactLinks">
-              <ul>
-                <li>
-                  <a href={mailLink} target="_blank" rel="noopener noreferrer">
-                    <Gmail width={30} height={30} />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href={linkedinLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <LinkedIn width={30} height={30} />
-                  </a>
-                </li>
-                <li>
-                  <a href={igLink} target="_blank" rel="noopener noreferrer">
-                    <Instagram width={30} height={30} />
-                  </a>
-                </li>
-              </ul>
+              <a href={mailLink} target="_blank" rel="noopener noreferrer">
+                <Gmail width={30} height={30} />
+              </a>
+
+              <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+                <LinkedIn width={30} height={30} />
+              </a>
+
+              <a href={igLink} target="_blank" rel="noopener noreferrer">
+                <Instagram width={30} height={30} />
+              </a>
             </div>
           </div>
         </div>
