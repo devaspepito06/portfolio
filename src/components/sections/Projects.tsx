@@ -16,6 +16,8 @@ export function Projects() {
                 tech={project.tech.map((t) =>
                   Array.isArray(t) ? { label: t[0], svg: t[1] } : t,
                 )}
+                type="project"
+                index={index}
               />
             ))}
           </div>
