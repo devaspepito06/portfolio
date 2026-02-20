@@ -70,6 +70,9 @@ export const ProjectPage = () => {
               )}
             </div>
           </div>
+          <div className="projectLink">
+            <a href={currentProject.link}>Project here</a>
+          </div>
         </div>
       </div>
     </>
